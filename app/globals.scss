@@ -68,7 +68,8 @@ body {
   min-height: 100vh;
   gap: 30px;
   padding: 0 10px;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 
   h2 {
     margin-bottom: 10px;
