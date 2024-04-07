@@ -73,6 +73,7 @@ body {
   padding: 0 10px;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  overflow-x: hidden;
 
   .text {
     max-width: 500px;
