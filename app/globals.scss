@@ -3,6 +3,7 @@
   --bg-secondary: #0075ff;
   --font-main: #5c7899;
   --font-secondary: #ffff;
+  --font-light-grey: #dae5f2;
   --font-blue: #0075ff;
   --white: #ffff;
 }
@@ -13,7 +14,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   scroll-snap-type: y proximity;
-  overflow-x: hidden;
+  //overflow-x: hidden;
 }
 body {
   background-color: var(--bg-main);
@@ -73,12 +74,15 @@ body {
   scroll-snap-align: start;
   scroll-snap-stop: always;
 
-  h2 {
-    margin-bottom: 10px;
-  }
   .text {
     max-width: 500px;
     color: white;
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      color: var(--font-light-grey);
+    }
   }
 }
 @media (max-width: 940px) {
